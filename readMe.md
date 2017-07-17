@@ -3,7 +3,6 @@ SSH Port : 2200
 URL : http://13.126.63.118/
 
 Config changes :
-
 I used lightsail amazon web service as a virtual web server.
 Created ssh keygen for the user ubuntu and grader.
 Disabled login with password (nano /etc/ssh/ssh_config)
@@ -17,3 +16,4 @@ Third Party Softwares : Google Login
 
 
 Login : ssh grader@13.126.63.118 -p 2200 -i ~/.ssh/project5
+Passphrase to Login : passphrase
